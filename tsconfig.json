@@ -1,10 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ESNext", // Target the latest ECMAScript features
-    "module": "CommonJS", // Use CommonJS for Node.js compatibility
-    "lib": [
-      "ESNext"
-    ], // Include latest ECMAScript libraries
+    "target": "ES2022", // Target the latest ECMAScript features
+    "module": "ES2022",
     "allowJs": true, // Allow JavaScript files
     "outDir": "./build", // Output compiled files to dist folder
     "rootDir": "./src", // Keep source files in src folder
@@ -25,6 +22,6 @@
     "build"
   ],
   "include": [
-    "src/**/*.ts"
+    "src/**/*"
   ]
 }
